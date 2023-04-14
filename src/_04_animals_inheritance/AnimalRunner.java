@@ -11,14 +11,18 @@ public class AnimalRunner {
 	public static void main(String[] args) {
 		Dog d = new Dog("Lucy", "brown", true);
 		d.printName();
+		d.getFurColor();
 		d.play();
 		d.eat();
 		d.sleep();
+		d.Woof();
 		
 		Cat c = new Cat("Tom", "black", false);
 		c.printName();
+		c.getGender();
 		c.play();
 		c.eat();
 		c.sleep();
+		c.Meow();
 	}
 }
